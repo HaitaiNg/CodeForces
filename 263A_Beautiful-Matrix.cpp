@@ -27,12 +27,7 @@ int main(){
     }
     
     y = cy; 
-    int moves = 0;
-    while(y != 2){
-        if(y > 2) y--;
-        else {y++;} 
-        moves++;
-    }
+    int moves = abs(2 - y);
 
     vector<int> x; 
     for(char& c : result){

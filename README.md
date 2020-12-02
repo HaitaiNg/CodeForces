@@ -13,15 +13,3 @@ This repository stores my submissions for CodeForces
 
 ###### Python (3.6.5+)
 - python (file_name).py
-
-##### Challenge Problems 
-```
-266B
-263A
-160A
-158B
-136A
-144A
-486A
-455A
-```

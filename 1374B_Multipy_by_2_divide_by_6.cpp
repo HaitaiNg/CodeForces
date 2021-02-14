@@ -37,7 +37,7 @@ int main()
         else{
             cout << "-1 " << "\n"; 
         }
-a
+
     }
     return 0; 
 }

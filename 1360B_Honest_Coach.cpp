@@ -16,7 +16,6 @@ int main()
         for(int i = 0; i < n; i++){
             cin >> a[i]; 
         }
-
         sort(a, a + n); 
         vector<int> team;
         int difference = INT_MAX; 

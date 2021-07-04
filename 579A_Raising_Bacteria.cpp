@@ -3,21 +3,17 @@
 #include <sstream> 
 #include <string> 
 #include <vector>
-
 using namespace std; 
 
-bool isPowerOfTwo(long x)
-{
-    return (x != 0) && (x & (x - 1)) == 0;  
-}
 
 int main()
 {
-    int t = 0, count = 0;  
+    long long  t = 0, count = 0;  
     cin >> t; 
-    if(isPowerOfTwo(t)) cout << "1" << endl; 
-    else{
-        cout << "2" << endl; 
-     }
+    while( t / 2 != 0){
+        if( t % 2 == 1) count++; 
+        t /= 2; 
+    }
+    cout << count + 1 << endl; 
      return 0;     
 }
